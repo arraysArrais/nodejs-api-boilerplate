@@ -8,7 +8,7 @@ const router = Router();
 
 router.get('/ping', ApiController.ping);
 
-router.post('/register', ApiController.register);
+router.post('/register', ApiController.signUp);
 router.post('/login', ApiController.login);
 
 //inserindo um middleware na rota, para ser executado antes de ir para o controller

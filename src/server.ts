@@ -1,4 +1,4 @@
-import express, {Request, Response} from 'express';
+import express, {ErrorRequestHandler, Request, Response} from 'express';
 import path from 'path';
 import dotenv from 'dotenv';
 import apiRoutes from './routes/api';
